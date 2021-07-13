@@ -1,0 +1,208 @@
+@charset "UTF-8";
+@import url("style_Reset.css");
+ 
+/* div#wrap 시작 */
+div#wrap {
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* div#wrap 끝 */
+/* headerLogo 시작 */
+div#headerFrame {
+    width: 1200px;
+    height: 100px;
+    border: 1px solid #08f;
+    display: flex;
+    margin: 0 auto;
+
+}
+
+header#header {
+    margin: 5px auto;
+}
+
+#headerLogo {
+    width: 200px;
+    padding-left: 40px;
+    text-align: center;
+    line-height: 70px;
+    /*    border: 1px solid #f00;*/
+}
+
+/* headerLogo 끝*/
+/* nav#gnb 시작 */
+nav#gnb {
+    width: 1000px;
+    /*    border: 1px solid #08f;*/
+
+    -webkit-flex: 1px;
+    -moz-flex: 1px;
+    -ms-flex: 1px;
+    -o-flex: 1px;
+    flex: 1px;
+}
+
+#gnb ul#mainMenu {
+    height: 90px;
+    padding-right: 80px;
+
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+#gnb a {
+    width: 150px;
+    height: 50px;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 50px;
+    display: inline-block;
+}
+
+#gnb li.subLi > a {
+    /*    color: #fff;*/
+}
+
+#gnb ul.subMenu {
+    display: none;
+    position: absolute;
+
+    z-index: 999;
+}
+
+/* div#gnb 끝 */
+/* div#gnbBG 시작 */
+
+div#gnbBGGFrame {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    
+     background-color: #ffffff;
+    /*    border: 1px solid #f00;*/
+}
+
+#gnbBG {
+    width: 1200px;
+    height: 193px;
+
+    background-color: rgba(255, 255, 255, 0.7);
+
+    position: absolute;
+    display: none;
+}
+
+/* div#gnbBG 끝 */
+/* div#slide 시작 */
+div#slide {
+    width: 1200px;
+    height: 300px;
+    /*    border: 3px solid#f00;*/
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+div#shuttleFrame {
+    width: 3600px;
+    height: 300px;
+}
+
+#slide a {
+    position: relative;
+}
+
+#slide a span {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    padding: 18px;
+    border: 3px solid #aaa;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.6);
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* div#slide 끝 */
+/* div#contents */
+div#contents {
+    width: 1200px;
+    height: 200px;
+    margin: 0 auto;
+    border: 1px solid #08f;
+}
+
+#contents table {
+/*    width: 400px;*/
+    height: 140px;
+    border: 1px solid #eee;
+}
+
+#contents > td {
+    left: 30px;
+}
+
+div.tabContents table {
+    width: 100%;
+    /**/
+/*    height: 140px;*/
+    /*    border: 1px solid #f00;*/
+}
+
+#contents > div {
+    margin: 5px;
+    padding: 5px;
+}
+
+/* button.tabBts 시작 */
+
+div#notice button.tabBtn {
+    font-size: 20px;
+    padding: 4px 14px;
+    border: 1px solid #aaa;
+    border-bottom-color: #fff;
+    background-color: #fff;
+    position: relative;
+    left: 20px;
+    top: 1px;
+}
+
+div#gallery button.tabBtn {
+    font-size: 20px;
+    padding: 4px 14px;
+    border: 1px solid #aaa;
+    /*    border-bottom-color: #fff;*/
+    background-color: #fff;
+    position: relative;
+    left: 20px;
+    top: 1px;
+}
+
+button.tabBtn:first-child {
+    border-bottom-color: #fff;
+    background-color: #fff;
+}
+
+#noticeArea td {
+    line-height: 34px;
+}
+
+/* button.tabBts끝 */
+/* div#gallery 시작 */
+div#gallery table {
+    margin: 0 auto;
+}
+
+ /* div#gallery 끝 */
+ /* div#banner 시작 */
+div#banner {
+    width: 400px;
+    height: 140px;
+    margin: 0 auto;
+    border: 1px solid #f00;
+}
